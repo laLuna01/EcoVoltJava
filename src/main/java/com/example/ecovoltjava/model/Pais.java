@@ -12,7 +12,7 @@ public class Pais {
     @Column(name = "COD_PAIS")
     private Long codPais;
 
-    @Column(name = "NOM_PAIS", nullable = false, length = 30)
+    @Column(name = "NOM_PAIS", nullable = false, length = 50)
     private String nome;
 
 }

@@ -12,7 +12,7 @@ public class Estado {
     @Column(name = "COD_ESTADO")
     private Long codEstado;
 
-    @Column(name = "NOM_ESTADO", nullable = false, length = 30)
+    @Column(name = "NOM_ESTADO", nullable = false, length = 50)
     private String nome;
 
     @ManyToOne
