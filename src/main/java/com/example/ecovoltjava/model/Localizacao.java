@@ -12,13 +12,13 @@ public class Localizacao {
     @Column(name = "ID_LOCALIZACAO")
     private Long idLocalizacao;
 
-    @Column(name = "LATITUDE", nullable = false)
+    @Column(name = "LATITUDE")
     private Double latitude;
 
-    @Column(name = "LONGITUDE", nullable = false)
+    @Column(name = "LONGITUDE")
     private Double longitude;
 
-    @Column(name = "ENDERECO_COMPLETO", nullable = false, length = 255)
+    @Column(name = "ENDERECO_COMPLETO", length = 255)
     private String enderecoCompleto;
 
     @ManyToOne
