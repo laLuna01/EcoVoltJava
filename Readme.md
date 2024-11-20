@@ -148,20 +148,27 @@ A aplicação estará disponível em `http://localhost:8080`. Você pode usar fe
 [https://EcoVoltJava/blob/master/documentos/testes_api_postman.json](https://github.com/laLuna01/EcoVoltJava/blob/master/docs/EcoVolt%20GS%20API.postman_collection.json)
 
 ## Diagrama de Entidade e Relacionamento
+![alt text](Relacional.png)
 
 ## Diagramas de Classes de Entidade
 
 ### Controllers
+![alt text](controllers.png)
 
 ### Dtos
+![alt text](dtos.png)
 
-### Exception
+### Exceptions
+![alt text](exceptions.png)
 
 ### Mappers
+![alt text](mappers.png)
 
 ### Repositories
+![alt text](repositories.png)
 
 ### Models
+![alt text](models.png)
 
 ## Alunos
 <b>Luana Sousa Matos</b> RM552621
