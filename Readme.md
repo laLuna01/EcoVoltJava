@@ -1,7 +1,51 @@
 # ECOVOLT DATA MANAGEMENT
-Este projeto foi desenvolvido como parte de uma solução tecnológica para comunidades remotas, com foco na previsão e otimização de geração e consumo de energia. Ele utiliza uma API RESTful construída com Spring Boot para gerenciar dados de geração e consummo de energia, fontes renováveis e etc. Essas comunidades frequentemente enfrentam dificuldades no acesso à energia confiável devido à variabilidade climática e à imprevisibilidade da demanda. A solução proposta busca mitigar esses desafios, facilitando a transição energética para sistemas renováveis, permitindo um planejamento mais eficiente e sustentável.
+Este projeto foi desenvolvido como parte de uma solução tecnológica para comunidades remotas, com foco na **previsão e otimização de geração e consumo de energia**. Ele utiliza uma API RESTful construída com Spring Boot para gerenciar dados de geração e consummo de energia, fontes renováveis e etc. Essas comunidades frequentemente enfrentam dificuldades no acesso à energia confiável devido à variabilidade climática e à imprevisibilidade da demanda. A solução proposta busca mitigar esses desafios, **facilitando a transição energética para sistemas renováveis**, permitindo um planejamento mais eficiente e sustentável.
 
 Este projeto tem potencial para ser implementado em soluções reais de monitoramento e gestão de energia, contribuindo para um futuro mais sustentável e seguro para as comunidades que dependem de energia renovável.
+
+## Outras partes do projeto
+### Mobile
+- [https://github.com/laLuna01/EcoVoltMobile.git](https://github.com/laLuna01/EcoVoltMobile.git)
+### Machine learning
+- [https://github.com/laLuna01/EcoVoltIA.git](https://github.com/laLuna01/EcoVoltIA.git)
+
+## Critérios de avaliação
+### Relevância e Inovação
+- O projeto aborda um problema ou desafio significativo na área de energia sustentável?
+
+    > O projeto aborda a dificuldade enfrentada por comunidades remotas no acesso a uma energia confiável e sustentável. A imprevisibilidade da demanda energética em sistemas isolados, com fontes renováveis como solar e eólica, é um desafio crítico. A solução foca no planejamento e gestão eficiente de recursos.
+
+- A solução proposta tem potencial para melhorar a qualidade de projetos na área de energias renováveis e sustentabilidade?
+
+    > Ao integrar um modelo preditivo baseado em Machine Learning, a solução permite antecipar a geração de energia e ajustar o planejamento, melhorando a eficiência operacional.
+
+- O projeto apresenta uma ideia inovadora ou uma abordagem criativa para resolver o problema?
+
+    > A integração de previsão energética com dados climáticos obtidos pela API NASA POWER, combinada com a gestão de consumidores e fontes de energia, oferece uma abordagem criativa e eficaz para lidar com a imprevisibilidade.
+
+- A solução proposta incorpora tecnologias modernas e emergentes de forma eficaz?
+
+    > O projeto utiliza:
+
+    - **Machine Learning** para previsão de geração de energia.
+    - **Spring Boot** para a API RESTful.
+    - **Swagger** para documentação interativa.
+    - **Docker** para contêinerização e facilidade de deploy.
+    - **Oracle SQL** para um banco de dados escalável.
+    - **Kotlin** para app mobile destinado aos consumidores.
+
+- Qual é o potencial impacto positivo da solução para o tema proposto?
+
+    > A solução pode impactar positivamente a sustentabilidade, permitindo o uso mais eficiente de recursos renováveis e reduzindo desperdícios. Também contribui para a autonomia energética de comunidades remotas.
+
+### Viabilidade e Usabilidade
+- A solução proposta é tecnicamente viável?
+
+    > O projeto foi implementado com tecnologias bem estabelecidas e tem uma estrutura técnica sólida, desde o backend até a integração com Machine Learning.
+
+- A solução é fácil de usar para o público-alvo e outros stakeholders?
+
+    > Com endpoints bem definidos, funcionalidades claras e uma interface de API documentada no Swagger, a solução é intuitiva para desenvolvedores e pode ser expandida com facilidade para usuários finais.
 
 ## Pré-requisitos
 
@@ -396,8 +440,7 @@ A aplicação estará disponível em `http://localhost:8080`. Você pode usar fe
     - Exemplo: http://localhost:8080/localizacao/{id}
   
 ## Swagger
-
-`http://localhost:8080/swagger-ui.html`
+[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Testes
 - Vá até collections no postman e importe o arquivo .json
@@ -405,28 +448,28 @@ A aplicação estará disponível em `http://localhost:8080`. Você pode usar fe
 [https://EcoVoltJava/blob/master/documentos/testes_api_postman.json](https://github.com/laLuna01/EcoVoltJava/blob/master/docs/EcoVolt%20GS%20API.postman_collection.json)
 
 ## Diagrama de Entidade e Relacionamento
-![alt text](Relacional.png)
+![diagrama](Relacional.png)
 
 ## Diagramas de Classes de Entidade
 
 ### Controllers
-![alt text](controllers.png)
+![diagrama](controllers.png)
 
 ### Dtos
-![alt text](dtos.png)
+![diagrama](dtos.png)
 
 ### Exceptions
-![alt text](exceptions.png)
+![diagrama](exceptions.png)
 
 ### Mappers
-![alt text](mappers.png)
+![diagrama](mappers.png)
 
 ### Repositories
-![alt text](repositories.png)
+![diagrama](repositories.png)
 
 ### Models
-![alt text](models.png)
+![diagrama](models.png)
 
 ## Alunos
-<b>Luana Sousa Matos</b> RM552621
-<b>Nicolas Martins</b> RM553478
+**Luana Sousa Matos** RM552621
+**Nicolas Martins** RM553478
