@@ -3,6 +3,9 @@ Este projeto foi desenvolvido como parte de uma solução tecnológica para comu
 
 Este projeto tem potencial para ser implementado em soluções reais de monitoramento e gestão de energia, contribuindo para um futuro mais sustentável e seguro para as comunidades que dependem de energia renovável.
 
+## Vídeos
+- [https://drive.google.com/drive/folders/14mKy2S2RoIj7DrlrtIyBJv4wSB_hJHtF?usp=drive_link](https://drive.google.com/drive/folders/14mKy2S2RoIj7DrlrtIyBJv4wSB_hJHtF?usp=drive_link)
+
 ## Outras partes do projeto
 ### Mobile
 - [https://github.com/laLuna01/EcoVoltMobile.git](https://github.com/laLuna01/EcoVoltMobile.git)
@@ -472,4 +475,5 @@ A aplicação estará disponível em `http://localhost:8080`. Você pode usar fe
 
 ## Alunos
 **Luana Sousa Matos** RM552621
+
 **Nicolas Martins** RM553478
